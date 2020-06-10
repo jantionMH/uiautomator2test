@@ -1,0 +1,16 @@
+teuiautomator2最好的方面是速度快，相比起你还在用的appium，快太多了
+
+测试项目：某原生安卓app
+测试类型：GUI测试
+
+令我印象最深刻的uiautomator2的特性
+1.选择选择元素用text:  self.s(text='你好',instance=0).click(timeout=2)
+2.选择元素用id:   self.s(resourceId='你好',instance=3).get_text()
+3.滑动屏幕 :  self.s().swip('up',steps=5)  
+4.选择兄弟元素   self.s(text='你好').sibling(className='abcd.widght.android').get_text
+
+
+
+
+
+欢迎留言
