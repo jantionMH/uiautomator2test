@@ -8,7 +8,7 @@ teuiautomator2最好的方面是速度快，相比起你还在用的appium，快
 2.选择元素用id:   self.s(resourceId='你好',instance=3).get_text()
 3.滑动屏幕 :  self.s().swip('up',steps=5)  
 4.选择兄弟元素   self.s(text='你好').sibling(className='abcd.widght.android').get_text
-
+5.自编xapth    当有好几个相同的 className,手动数一下你要的是第几个，从0开始数，比如我要的是第2个，instance就等于1, d(calssName='android.widget.ImageView', instance=1).click()
 
 
 
