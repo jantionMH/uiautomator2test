@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试报告</title>
+    <link rel="stylesheet" href="./test.css">
+    <script src="./jquery.min.js"></script>
+</head>
+ <script>
+             $(document).ready(function(){
+              $("table").find('tbody').find('a').attr("target","_black")
+              $("#testResults").on("change",function(e){
+              const type = e.target.value;
+               const list = $("table").find('tbody').find("tr");
+               $(list).each(function (index){
+               if([0,1,2].includes(index)) return;
+               $(this).show()
+               const dom = $(this).find("td")[4];
+               if(type == 1){
+                if($(dom).html() === '失败' || !$(dom).html()){
+                $(this).hide()
+                }
+               } else if(type == 2){
+                if($(dom).html() === "测试成功" || !$(dom).html()){
+                 $(this).hide()
+                 }
+                 }
+               })
+              })
+             });
+</script>
+<body>
+<header>
+              <div class="options">
+                <div>
+                  <h3>测试结果：</h3>
+                  <select name="" id="testResults">
+                    <option value="0">全部</option>
+                    <option value="1">成功</option>
+                    <option value="2">失败</option>
+                  </select>
+                </div>
+              </div>
+</header>
+
+count_success = 0
+coount_fail = 0
+
+<table  witdth=100% border=2 cellspacing=2 cellpadding=2>
+ <tbody>
+ <tbody><tr  >
+                     <td colspan=7 height=60px align=center>自動化測試報告</td>
+              </tr>
+              <tr >
+                <td >软件版本${version}</td>
+                <td >测试机型${machinetype}</td>
+                <td >测试用例总数${totalnum}</td>
+                <td >成功率${successrate}</td>
+                <td >成功数${successnum}</td>
+                <td >失败数${failnum}</td>
+                <td >
+                 <dl>
+                 自${teststartime}
+                 </dl>
+                 <dl>
+                  至${endtime}
+                 </dl>
+                 </td>
+              </tr>
+
+              <tr >
+              <td width=5% >序号</td>
+              <td width=15% >测试时间</td>
+              <td width=30% >测试场景</td>
+              <td width=20%>测试用例</td>
+              <td width=10%>测试结果</td>
+              <td width=10%>错误截图</td>
+              <td width=10%>失败原因</td>
+              </tr>
+

@@ -1,0 +1,1731 @@
+1589641831961	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofile829BLq"
+1589641832453	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589641832910	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589641832910	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589641832911	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589641832911	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589641834981	Marionette	INFO	Listening on port 51684
+1589641835140	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript warning: https://www.ohtxvj.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=753830038, line 1: unreachable code after return statement
+JavaScript warning: https://www.ohtxvj.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=753830038, line 1: unreachable code after return statement
+JavaScript warning: https://www.ohtxvj.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=753830038 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1589641897944	Marionette	INFO	Stopped listening on port 51684
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589641924433	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofile0VQP1r"
+1589641924804	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589641925191	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589641925191	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589641925191	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589641925191	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589641927220	Marionette	INFO	Listening on port 51828
+1589641927565	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript warning: https://www.ohtxvj.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1065107194, line 1: unreachable code after return statement
+JavaScript warning: https://www.ohtxvj.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1065107194, line 1: unreachable code after return statement
+JavaScript warning: https://www.ohtxvj.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1065107194 line 1 > eval, line 1: unreachable code after return statement
+1589641958706	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+JavaScript error: , line 0: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1589642017172	Marionette	INFO	Stopped listening on port 51828
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589642022892	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofile9WOSCz"
+1589642023239	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589642023630	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589642023630	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589642023630	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589642023630	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589642025776	Marionette	INFO	Listening on port 60892
+1589642026029	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript warning: https://www.ohtxvj.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1117977917, line 1: unreachable code after return statement
+JavaScript warning: https://www.ohtxvj.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1117977917, line 1: unreachable code after return statement
+JavaScript warning: https://www.ohtxvj.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1117977917 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+1589642065139	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: , line 0: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1589642461843	Marionette	INFO	Stopped listening on port 60892
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589642468596	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofile00rmPN"
+1589642469052	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589642469436	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589642469436	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589642469436	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589642469436	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589642471306	Marionette	INFO	Listening on port 58040
+1589642471768	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript warning: https://www.ohtxvj.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=252853044, line 1: unreachable code after return statement
+JavaScript warning: https://www.ohtxvj.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=252853044, line 1: unreachable code after return statement
+JavaScript warning: https://www.ohtxvj.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=252853044 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+1589642506561	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: , line 0: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+JavaScript error: https://cdn.jsdelivr.net/sockjs/1.0.0/sockjs.min.js, line 2: Error: Incompatibile SockJS! Main site uses: "1.4.0", the iframe: "1.0.0".
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 28: TypeError: this.docShell is null
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 28: TypeError: this.docShell is null
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 28: TypeError: this.docShell is null
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 28: TypeError: this.docShell is null
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 28: TypeError: this.docShell is null
+1589643151953	Marionette	INFO	Stopped listening on port 58040
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589644842441	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofile7gx7cw"
+1589644842812	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589644843189	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589644843189	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589644843189	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589644843189	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589644845298	Marionette	INFO	Listening on port 54824
+1589644845560	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+[Child 30908, MediaDecoderStateMachine #1] WARNING: Decoder=1cc1a81dc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 30908, MediaDecoderStateMachine #1] WARNING: Decoder=1cc1a81dc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 30908, MediaDecoderStateMachine #1] WARNING: Decoder=1cc1a81dc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+1589644874263	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+JavaScript error: , line 0: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1589644906894	Marionette	INFO	Stopped listening on port 54824
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589644913160	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofile8y7w0Q"
+1589644913638	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589644914135	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589644914135	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589644914136	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589644914136	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589644916349	Marionette	INFO	Listening on port 55010
+1589644916778	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+[Child 24620, MediaDecoderStateMachine #1] WARNING: Decoder=2662bcd2400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 24620, MediaDecoderStateMachine #1] WARNING: Decoder=2662bcd2400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 24620, MediaDecoderStateMachine #1] WARNING: Decoder=2662bcd2400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 24620, MediaDecoderStateMachine #1] WARNING: Decoder=2662bcd2400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 24620, MediaDecoderStateMachine #1] WARNING: Decoder=2662bcd2400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 24620, MediaDecoderStateMachine #1] WARNING: Decoder=2662bcd2400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+1589644943629	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+JavaScript error: , line 0: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1589644990362	Marionette	INFO	Stopped listening on port 55010
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589644995109	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofileTqCm7k"
+1589644995968	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589644996534	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589644996534	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589644996534	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589644996534	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589644998716	Marionette	INFO	Listening on port 55180
+1589644998734	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+[Child 29396, MediaDecoderStateMachine #1] WARNING: Decoder=21a6b481000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 29396, MediaDecoderStateMachine #1] WARNING: Decoder=21a6b481000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 29396, MediaDecoderStateMachine #1] WARNING: Decoder=21a6b481000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 29396, MediaDecoderStateMachine #1] WARNING: Decoder=21a6b481000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 29396, MediaDecoderStateMachine #1] WARNING: Decoder=21a6b481000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+1589645026355	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: , line 0: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+JavaScript error: https://cdn.jsdelivr.net/sockjs/1.0.0/sockjs.min.js, line 2: Error: Incompatibile SockJS! Main site uses: "1.4.0", the iframe: "1.0.0".
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1589645114293	Marionette	INFO	Stopped listening on port 55180
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589645224036	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofileUNljee"
+1589645224477	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589645224904	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589645224904	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589645224904	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589645224904	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589645226799	Marionette	INFO	Listening on port 55442
+1589645227162	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+[Child 17684, MediaDecoderStateMachine #1] WARNING: Decoder=2174fbcd400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 17684, MediaDecoderStateMachine #1] WARNING: Decoder=2174fbcd400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 17684, MediaDecoderStateMachine #1] WARNING: Decoder=2174fbcd400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+1589645253036	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: , line 0: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1589645292839	Marionette	INFO	Stopped listening on port 55442
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589645296637	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofiles0rSE3"
+1589645297088	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589645297643	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589645297643	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589645297643	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589645297643	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589645301736	Marionette	INFO	Listening on port 55609
+1589645301863	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+[Child 24776, MediaDecoderStateMachine #1] WARNING: Decoder=257c6cd3000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 24776, MediaDecoderStateMachine #1] WARNING: Decoder=257c6cd3000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 24776, MediaDecoderStateMachine #1] WARNING: Decoder=257c6cd3000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 24776, MediaDecoderStateMachine #1] WARNING: Decoder=257c6cd3000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 24776, MediaDecoderStateMachine #1] WARNING: Decoder=257c6cd3000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+1589645336665	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: , line 0: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+JavaScript error: https://cdn.jsdelivr.net/sockjs/1.0.0/sockjs.min.js, line 2: Error: Incompatibile SockJS! Main site uses: "1.4.0", the iframe: "1.0.0".
+JavaScript error: https://cdn.jsdelivr.net/sockjs/1.0.0/sockjs.min.js, line 2: Error: Incompatibile SockJS! Main site uses: "1.4.0", the iframe: "1.0.0".
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1589645827941	Marionette	INFO	Stopped listening on port 55609
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589646081629	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofileMu2m3s"
+1589646082115	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589646082613	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589646082613	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589646082613	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589646082614	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589646084891	Marionette	INFO	Listening on port 53732
+1589646085255	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+[Child 20952, MediaDecoderStateMachine #1] WARNING: Decoder=1ba0f5d2400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 20952, MediaDecoderStateMachine #1] WARNING: Decoder=1ba0f5d2400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 20952, MediaDecoderStateMachine #1] WARNING: Decoder=1ba0f5d2400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 20952, MediaDecoderStateMachine #1] WARNING: Decoder=1ba0f5d2400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 20952, MediaDecoderStateMachine #1] WARNING: Decoder=1ba0f5d2400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 20952, MediaDecoderStateMachine #1] WARNING: Decoder=1ba0f5d2400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+1589646111528	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+JavaScript error: , line 0: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+1589646136646	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1589646156495	Marionette	INFO	Stopped listening on port 53732
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589646200003	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofile0aRzgO"
+1589646200422	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589646200930	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589646200930	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589646200931	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589646200931	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589646203407	Marionette	INFO	Listening on port 53963
+1589646203688	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+[Child 20208, MediaDecoderStateMachine #1] WARNING: Decoder=20ec76c5800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 20208, MediaDecoderStateMachine #1] WARNING: Decoder=20ec76c5800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 20208, MediaDecoderStateMachine #1] WARNING: Decoder=20ec76c5800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 20208, MediaDecoderStateMachine #1] WARNING: Decoder=20ec76c5800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 20208, MediaDecoderStateMachine #1] WARNING: Decoder=20ec76c5800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+[Child 20208, MediaDecoderStateMachine #1] WARNING: Decoder=20ec76c5800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+1589646230808	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+JavaScript error: , line 0: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1589646398308	Marionette	INFO	Stopped listening on port 53963
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589646667239	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofilePIS4z0"
+1589646667612	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589646668097	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589646668097	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589646668097	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589646668097	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589646669961	Marionette	INFO	Listening on port 51142
+1589646670361	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript warning: https://www.ohtxvj.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=2040526028, line 1: unreachable code after return statement
+JavaScript warning: https://www.ohtxvj.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=2040526028, line 1: unreachable code after return statement
+JavaScript warning: https://www.ohtxvj.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=2040526028 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+1589646698014	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+JavaScript error: , line 0: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1589646920622	Marionette	INFO	Stopped listening on port 51142
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589658953837	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofile6klJ0y"
+1589658954476	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589658955250	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589658955251	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589658955251	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589658955251	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589658957076	Marionette	INFO	Listening on port 61125
+1589658957481	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+1589659032906	Marionette	INFO	Stopped listening on port 61125
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589659036371	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofileq3EnQk"
+1589659037119	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589659064451	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofile69bqKr"
+1589659065119	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589659067333	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589659067333	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589659067334	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589659067334	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589659069174	Marionette	INFO	Listening on port 61264
+1589659069270	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+1589659095724	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+JavaScript error: , line 0: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1589659148149	Marionette	INFO	Stopped listening on port 61264
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589659152658	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofileJQ2Hvk"
+1589659153015	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589659153385	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589659153385	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589659153385	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589659153385	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589659155174	Marionette	INFO	Listening on port 61401
+1589659155288	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+1589659180665	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+JavaScript error: , line 0: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+JavaScript error: https://cdn.jsdelivr.net/sockjs/1.0.0/sockjs.min.js, line 2: Error: Incompatibile SockJS! Main site uses: "1.4.0", the iframe: "1.0.0".
+JavaScript error: http://sit-mile-pc.lotto.com/js/chunk-vendors.20a8304d.js, line 1: Error: Request failed with status code 500
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1589659267929	Marionette	INFO	Stopped listening on port 61401
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1589659272761	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofilemEimBc"
+1589659273171	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589659273756	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589659273757	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589659273757	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589659273757	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589659275616	Marionette	INFO	Listening on port 61561
+1589659275881	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://miletest.com/main.e47152c4f4bfb9360e75.bundle.js, line 2: TypeError: a is undefined
+1589659298557	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+JavaScript error: , line 0: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1589659675332	Marionette	INFO	Stopped listening on port 61561
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592102816461	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofilepqaNai"
+1592102817651	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592102818352	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592102818352	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592102818352	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592102818352	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592102822036	Marionette	INFO	Listening on port 2077
+1592102822184	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+1592102845022	Marionette	INFO	Stopped listening on port 2077
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592103852247	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofilejJ2GHc"
+1592103852699	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592103853172	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592103853173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592103853173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592103853173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592103856416	Marionette	INFO	Listening on port 12501
+1592103856468	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+1592103870250	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+console.error: PushService: 
+  Failed to drop expired registrations on idle
+  UnknownError
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: http://miletest.com/main.1b49f7534e5ff7c71798.bundle.js, line 2: TypeError: a is undefined
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+1592118949048	Marionette	INFO	Stopped listening on port 12501
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592965117442	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofileoqn7Za"
+1592965118801	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592965119263	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592965119263	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592965119263	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592965119264	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592965122608	Marionette	INFO	Listening on port 9427
+1592965122673	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 17352, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+[Child 17352, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+1592965138456	Marionette	INFO	Stopped listening on port 9427
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592965250580	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofile3ulARQ"
+1592965251020	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592965251445	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592965251445	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592965251445	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592965251446	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592965254170	Marionette	INFO	Listening on port 9593
+1592965254237	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1592965266179	Marionette	INFO	Stopped listening on port 9593
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592965271434	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofileHepsS2"
+1592965271892	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592965272295	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592965272295	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592965272295	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592965272295	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592965274904	Marionette	INFO	Listening on port 9684
+1592965275058	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 1913: TypeError: currentPanel is undefined
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 266: TypeError: this._builder is undefined
+1592965395571	Marionette	INFO	Stopped listening on port 9684
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ion permission: networkStatus
+1592965395708	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592965395708	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592965395709	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592965395709	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592965398360	Marionette	INFO	Listening on port 9868
+1592965398461	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592965450673	Marionette	INFO	Stopped listening on port 9868
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592965513381	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofileZ6yfzG"
+1592965537638	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofileP1qIi9"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592965541595	Marionette	INFO	Listening on port 10177
+1592965541758	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
+1592965560518	Marionette	INFO	Stopped listening on port 10177
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592965613046	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofileDXx8qQ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592965615973	Marionette	INFO	Listening on port 10288
+1592965616170	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
+1592965630835	Marionette	INFO	Stopped listening on port 10288
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592965721179	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofilexaqcUd"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592965724198	Marionette	INFO	Listening on port 10413
+1592965724307	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
+1592965806209	Marionette	INFO	Stopped listening on port 10413
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592965806101	Marionette	INFO	Listening on port 10538
+1592965806539	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
+1592965882180	Marionette	INFO	Stopped listening on port 10538
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592966024743	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofiledNQ8aZ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592966027559	Marionette	INFO	Listening on port 10730
+1592966027865	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
+1592966041358	Marionette	INFO	Stopped listening on port 10730
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592966100686	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofiletxpELD"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592966103562	Marionette	INFO	Listening on port 10943
+1592966103801	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1592966418602	Marionette	INFO	Stopped listening on port 10943
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592966190184	Marionette	INFO	Listening on port 11077
+1592966190307	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
+1592966417635	Marionette	INFO	Stopped listening on port 11077
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592966251691	Marionette	INFO	Listening on port 11174
+1592966251913	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
+1592966416971	Marionette	INFO	Stopped listening on port 11174
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592966304923	Marionette	INFO	Listening on port 11271
+1592966305342	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
+1592966415969	Marionette	INFO	Stopped listening on port 11271
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[Parent 15876, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1592966394913	Marionette	INFO	Listening on port 11384
+1592966394994	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
+1592966415251	Marionette	INFO	Stopped listening on port 11384
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592966781612	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofileLFjAvd"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592966784840	Marionette	INFO	Listening on port 11692
+1592966785238	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
+1592966789722	Marionette	INFO	Stopped listening on port 11692
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592966844571	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofileOyT4ND"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592966847494	Marionette	INFO	Listening on port 11790
+1592966847684	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
+1592966855411	Marionette	INFO	Stopped listening on port 11790
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592967459516	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofileTt6sSb"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592967462431	Marionette	INFO	Listening on port 12190
+1592967462640	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
+1592967466547	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+1592967472828	Marionette	INFO	Stopped listening on port 12190
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592967483365	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofileFpRMqq"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592967486273	Marionette	INFO	Listening on port 12268
+1592967486485	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
+1592967492508	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+1592967498776	Marionette	INFO	Stopped listening on port 12268
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592967797516	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofilewhKuFN"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592967800506	Marionette	INFO	Listening on port 12592
+1592967800636	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
+1592967805145	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+1592967811393	Marionette	INFO	Stopped listening on port 12592
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592967858314	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofileU4ii5E"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592967861356	Marionette	INFO	Listening on port 12687
+1592967861450	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
+1592967866667	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+1592967872939	Marionette	INFO	Stopped listening on port 12687
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592967909130	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofileln6L3K"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592967912613	Marionette	INFO	Listening on port 12775
+1592967912751	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
+1592967916984	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1592967945364	Marionette	INFO	Stopped listening on port 12775
+
+###!!! [Child][RunMessage] Error: Channel closing: tooJavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592967947921	Marionette	INFO	Listening on port 12851
+1592967948415	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
+1592967952970	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+1592967982227	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofilehX2vJ8"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592967985824	Marionette	INFO	Listening on port 12941
+1592967985858	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
+1592967989666	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+1592967996055	Marionette	INFO	Stopped listening on port 12941
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592968005644	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\janti\\AppData\\Local\\Temp\\rust_mozprofileH9nRYS"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592968008997	Marionette	INFO	Listening on port 13011
+1592968009271	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
+1592968014388	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+1592968020775	Marionette	INFO	Stopped listening on port 13011
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
