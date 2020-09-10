@@ -1,0 +1,75 @@
+理论：RAS是一种神奇的东西，数学家和密码学家发明的，我是学渣就不过分解释了
+ 
+实际应用：
+           RAS 用途 ！！！！！！
+               1.加密        2 解密
+               3.加签        4.验签
+               
+               很多人都以为RAS只用来加密解密，却不知道加签和验签是另一种神奇的功能
+               
+           今天我就来说道说道，加签和验签
+工作场景：  接口测试
+对象：      测试工程师(python自动化方向), javascript初次接触者
+知识储备等级： python 初中级   Javascripit入门级
+
+OK!
+
+开始表演：  
+         pip install cryptodome
+         注意！ Crypto不要安装，为了安装这个库，曾经大伤脑筋，因为crypto 需要安装一大堆依赖。费劲安装好之后，导入包重名，还要去改包名(改为Crypto，默认是crypto)
+          时间太久远，记不得当时惨烈的状况了，抱歉！
+          
+         from Crypto.PublicKey import RSA
+         from Crypto.Signature import PKCS1_v1_5
+         from Crypto.Hash import MD5, SHA256
+         from Crypto import Signature
+         
+         
+         看道这些包名，不要慌，我来解释一下大概的作用。
+         PKCS1_v1_5 是用来规范密钥的
+         SHA256     是用来对信息进行“摘要”的。注意“摘要”是个专用名词，英文叫digest
+         Signature  看名字就知道是签名相关的
+         
+         
+         初步认识一下就好，混个脸熟
+         像我这样良心的博主不多了，一步一步跟你解释，很负责！
+         
+         
+         下面告诉你如何加签，请先手动生成密钥对！
+         ps: 密钥对在哪里生成？   
+             还记得大明湖畔的 git bash 吗？
+             
+         私钥生成：openssl genrsa -out private.pem 2048 
+         公钥生成：openssl rsa -in private.pem -outform PEM -pubout -out public.pem
+         
+         def sin_deal():
+                 with open(f='C:User\abc\private.pem') as f:     #打开读取密钥，python的基本操作，不会去死
+                       private_key=f.read()                      #读取
+
+                 raskey=RSA.importKey(private_key)               #引入新鲜出炉的私钥，importKey(),感觉这个方法名很友好，有没有？
+                 singer=PKCS1_v1_5.new(rsakey)                   #这是啥？是不是很懵逼，其实就是把密码装入盒子，盒子名称叫Pkcs1,版本名叫作v1_5。singer是准备签名的你
+
+                 data = data_deal(message)                       #自己写的方法，过滤数据格式，比如我这里需要处理的数据是：request={"a":"1","b":"2","c":"3"}
+                                                                  处理成：a=1&b=2&c=3 ，sorted一下排序。。。。以后详细说吧 ps:request这玩意在javascript里叫json,而在python叫字典                                        
+                 digest = SHA256.new()                           # SHA256 是给明文加上一段摘要信息，也就是给数据加密
+                 digest.update(data.encode())                    # update 是把SHA256套进data,两者合二为一，注意encode()是把字符串data转成bytes类型，这是SHA256的规定
+                
+                 sign = signer.sign(digest)                      # singer 已经等待很久啦，终于等到 data被加密之后，两个人又相遇了，现在进行签名,sign()方法将两者合二为一
+                 signature =base64.b64encode(sign)               # 最后来个万能的base64,不需要动脑，直接完成base64的编码工作
+                 
+         好！
+         让我们来看javascript如何做同样的事！
+         史上第一人，python和Javascript同时比较学习！
+         我从未在网上看到同样的博文
+         
+         有点累了，休息一下喝杯奶茶再来。
+         
+         
+         
+         
+         
+          
+          
+              
+
+               
