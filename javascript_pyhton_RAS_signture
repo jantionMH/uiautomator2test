@@ -67,7 +67,7 @@ OK!
          
          来了！
          希望大家都能精神饱满的，每时每刻用满满的energy活在你的世界！
-         
+         以下代码来自另一位开发工程师同仁，我只是阅读者！
          <script language="JavaScript" type="text/javascript" src="./jsrsasign-all-min.js"></script>   #类似import   js的引用文件放在文件的top，写法就是这样
          
         <html>                                                        
@@ -138,7 +138,77 @@ OK!
  喝杯奶茶再来。
          
          
-          
+ 来了！
+      接口测试，http协议到今天我都说不清什么是3次握手4次挥手，只知道那是个神奇的过程！
+      那么接口测试 http 如何发送请求，获取服务器响应呢，这个我知道，而且我精通！
+      哈！像我这样的人，面试大厂的造大炮级别面试就会被淘汰吧！
+      
+   情况一：请求体转换json  
+      improt requets,json
+      
+      采用session()机制，统一维护session()
+      
+      
+      class testapi:
+            def init(self):
+                 self.session=requets.session()
+            def login(self)：
+            
+                 data= {"s1": "s", "s2": "s", "s3":"e", "s4": "s"}
+                 #有时候服务器需要的格式为json,而字典格式万一认不出的话会报错，为了谨慎，我们用json.dumps()转换一下
+                 data=json.dumps(data)
+                 re=self.seeion.post(url="https://?????????",data=data)
+                 print(re.text)
+                 
+   情况二：多层json嵌套bytes结构        
+      improt requets,json
+
+      class testapi:
+            def init(self):
+                 self.session=requets.session()
+            def login(self)：
+                 #这是我们得到的数字签名，是个b''开头的bytes结构，在我的情况下，服务器无法处理带bytes的json体，所以我们要处理掉头尾的字节符号
+                 signture=b'fKTKi9q3wJ5PhCYdWUW7v43cnQX+1ynOBRL5X+KiGulcbs8nPvtiWQ82Jr1aJHxoQmQnGgS8www/dnnfH2D0SJBbdJ92qd90EMuzl1NpYEit05kc63kyCDbIsTq+AuUE9LBiBIotdiZV79SmeD3eAdTfBAEF5x2qKIVWSmEENLqo33i9zsZBm6g1Gcqx86KMq+DBL/HE5I/XezcRZ28oAKdDvi8eXrz/SuaU0PURvHhgmhqwNqFGcppghHV84kHeuqYhtyNCBDbFkpuWeJ7mcyyPLFntQwHlwHVS0QK0rNMRTzWPJu1Yilv/4OJTshjTQX8AzdUgek4HaMvDdb7PYw=='
+                 
+                 #python切片了解一下，不光list可以切片，str也可以，先把bytes转化成str
+                 s=str(signture)
+                 #取从下标2的字符一直到倒数第二个字符
+                 s_signture=s[2:-1]
+                
+                data= {"s1": "s", "sign": s_signture, "s3": {'a': '1', 'a1': '1', 'a2': '3'}, "s4": "s"}
+                 data=json.dumps(data)
+                 re=self.seeion.post(url="https://?????????",data=data)
+                 print(re.text)
+      
+                 
+      
+      
+     问题来了，上面的signture放在公网上会不会被别人知道我加密前的数据！！！！
+     这个问题很严重！
+     万一被破解了，岂不是泄露机密！
+     
+     放心，只有你没有我的公钥，是没有办法知道原始信息的
+     这就RAS的厉害之处！
+     
+     原理我大概啰嗦一下！
+     
+     RAS 中文 非对称加密
+     特点 4把密钥加密消息，缺少任何一把都无法破解消息，极度安全
+     
+     
+     用户：公钥 私钥 ------------------- 服务器 ：公钥 私钥
+      
+      用户 私钥 签名————————————————> 服务器：拿用户的公钥验签，成功！
+      服务器：私钥 签名 ————————————————————>用户：拿服务器的公钥验签,成功！
+      
+      四把钥匙你都得到的情况下，可以威胁到通信的安全，但是，你拿不到我的私钥，就算拿到了，也拿不到服务器的私钥
+      
+      
+      
+      
+      
+      
+      
           
               
 
