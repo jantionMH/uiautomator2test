@@ -65,7 +65,77 @@ OK!
          有点累了，休息一下喝杯奶茶再来。
          
          
+         来了！
+         希望大家都能精神饱满的，每时每刻用满满的energy活在你的世界！
          
+         <script language="JavaScript" type="text/javascript" src="./jsrsasign-all-min.js"></script>   #类似import   js的引用文件放在文件的top，写法就是这样
+         
+        <html>                                                        
+            <body>
+                <script>
+                      //html标签大家应该熟悉，我这里是创建了vscode的调试环境，所以放在html标签里，方便调用浏览器(F12,看console输出)
+                      //以下是私钥，生成方式跟pyhton一样，在git bash 里出入
+                      //私钥生成：openssl genrsa -out private.pem 2048 
+                      // 公钥生成：openssl rsa -in private.pem -outform PEM -pubout -out public.pem
+                      //这里的密码我加了 " ===xxx=== \n"+  不影响使用
+                      
+                      let prk="-----BEGIN RSA PRIVATE KEY-----\n"+
+                      "MIIEpgIBAAKCAQEAruqz9+kW12YjNdCvwAsfhDhpvp8ylIDXZI8miW3k7U1/EwDT\n"+
+                      "MsDlvn5HiJ8eNOBJ0nj+tHYK1iHmB5reSXQ1hdOwGFc/KHJEIZGabC0+fw1ckQjM\n"+
+                      "gwTbIJUQYxANdb6yGHRXMlJl4BJXPDkEubIUSxztELr6+/q3vb5W4/Hjjx0sdfB7\n"+
+                      "MDcg0m2Fk7JV9NIBWAnwRPJtlTMuc8ASDABYm2oJ30KDE/BvtyMxY35Z2NwDDO23\n"+
+                      "d4P7OReTsuzWJSf8fRgpBw/irnJC6YjPqILJxHaFkbxlGeSnGKdBkO0F+MRdTHbm\n"+
+                      "b9nq/q4nduq6ADm3l0vRJgGO35gW34OU95f0YwIDAQABAoIBAQCMUv3OBNCuPOJC\n"+
+                      "agiUqFfAWwF6S3zoZfRmV/Eyj1b4iRNIy4CjVtz41ZXNpNk20jhnAWpUm95Vqxw/\n"+
+                      "PZ7WjsPheNHstRGWARVnWMfpwOJCSxXXxJdNBLhGi096KYaizzlRJQRO+ouAFzak\n"+
+                      "uZlw38wn9iy5H0f6nkiJkAllFMjaJdmQfYMX+i4P27RryfUEOLk0DTMkhjNXp/hh\n"+
+                      "18yBcuzklb83d00xQ8wQwccVAuLQIrQeUM7Z5ffTzu3MLqmfp3VxxT8xA2uOnf+j\n"+
+                      "yRLJvURZpcQD2as+ryYnK1Z26uXLFhMlAzNM9/oWRFeQGDC7wIftVD4FaWfjlkLy\n"+
+                      "PgRKJ2EBAoGBANzFEyi5WQboXVQis9tQlvnP777kyrhs1JOGg9Ay2nWxLgRchoj9\n"+
+                      "oOZ1hIN1z40wBYvYC60iiwSgH+sJADsbVHV3C86yLd8aXBLp1yz5/RECLDGXjQiJ\n"+
+                      "lsq4iEMLzRtVs+CbNpRzwZEL7OlMFoMu8Ci9THg0NKBej4DrmwI9C0sFAoGBAMrU\n"+
+                      "bulXkAJ+WWd4yua01etsViVKr3XAnwiSKX1myMvlZDPg5CdjCyW/cu+SBDl62KBW\n"+
+                      "DAuunoF08Rtdl+SrAlMD5Im++n5FWtTW/AEDNMlRvpNYnmHmB0ET1/SJexU4+eci\n"+
+                      "4rbfXuZr/BKYmZ/k1e1cvimbwX4ZlUCukTVbcm5HAoGBAMvld/x0srSehxPduR8l\n"+
+                      "H0s5sMMtq80JNovKAJOZZAquyUFd8yMynBg9EVYYyMgtQfIWZzJQZPSwrsn0VjJA\n"+
+                      "25BhkpYkGhmjzsXpEsKHYCMFTqu+vJLWAF7ab378t0I3tRoMQCx7fJrp2LTfgStH\n"+
+                      "fqchri6WiMRUkVUQROmcV4HBAoGBAL4RBYIJ+LwtdFAfBFve15tOIQe/Dd7VSvH4\n"+
+                      "LYMCn2VaJ2Tp+ELkcBzGY8kV1nmaoYbWO2FzF7uOPyX6tYylp37tZeqimQ9cpHpQ\n"+
+                      "n0O/omaJAIIJCBoLOX8FPlg7wKgphRzQNw1REhfw1v0CHOuVv9Y3E0fgWhh1lsRP\n"+
+                      "EWmjsP6fAoGBANPMCXFTTBGMhhB1npebJfqUF28vN4uWZ/X3ee6xqfYf1z8gRg1f\n"+
+                      "Mq087lb8ULck+3EyRRVtyFlnd9fU+lW+BYNF2aDwEOKO41MiYhhMM6ovIwmLBD9X\n"+
+                      "CL3tJx7XYdHhCDFy15HFAUZJhj7/CMSlh9ykPn7/NTu2sXO6RGlo5IwB\n"+
+                      "-----END RSA PRIVATE KEY-----"
+                      //function语言 函数名称 sign 传入参数 privateKey 和 str 
+                      function sign(privateKey, str){
+                       // Signature用了SHA256方式摘要，准备好
+                       var signer = new KJUR.crypto.Signature({"alg": "SHA256withRSA"});
+                       console.log(signer，'打印一下singer里的内容，python是print(),都是打印的意思')
+                       signer.init(privateKey);
+                       console.log('初始化私钥，python不需要这一步',signer)
+                       
+                       //准备数据清洗，输出格式为  key=value&key2=value2&key3=value3,并sort()排序
+                       var sortdata = oprint(JSON.parse(str),true);
+                       signer.updateString(str);
+                       console.log(signer,'私钥和sortdata两者结合，相当于 key[sha256[data]],singer准备好SHA256来找sortdata整合，而python顺序是，key[data+SHA256]'data准备好SHA256来找key)
+                       var hSigVal = signer.sign();
+                       console.log(typeof(hSigVal),hSigVal,'最后来一波签名，sign()方式跟Python一样')
+                       //base64编码，最后一步，方式跟python略不一样，但都很方便
+                       return hextob64(hSigVal);
+                      }
+                      sign(prk,j);
+
+        </script>
+   
+    </body>
+</html>
+
+ 
+ 
+ 
+ ok!
+ 休息一下，接下来将一将，作为python自动化测试工程师，在工作中遇到接口测试时，如何面对这些数据，以及一些小技巧。
+ 喝杯奶茶再来。
          
          
           
