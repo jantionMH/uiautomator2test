@@ -1,9 +1,11 @@
 import json
+import urllib
+
 from requests.auth import HTTPDigestAuth,HTTPBasicAuth
 import requests
 import jiphy,execjs
 import uuid
-from datacenter.cryptoJS_PY import sign, datadeal, handle_private_key, prk
+from datacenter.cryptoJS_PY import sign, datadeal, prk, signature_body, verify_signature
 from jpype import  *
 from Crypto.Cipher import AES
 from Crypto.Signature import PKCS1_v1_5
@@ -158,7 +160,11 @@ def get_req():
         tk = tk.call('sign', s)  # 调用函数 token为js里面的函数  a为传的参数
         tk = str(tk)
         print('tk=', tk)
-
+class MyEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, bytes):
+            return str(obj, encoding='utf-8')
+        return json.JSONEncoder.default(self, obj)
 class dcboxapi:
     def __init__(self):
          self.session=requests.session()
@@ -167,22 +173,27 @@ class dcboxapi:
         body = {'nick_name': '', 'name': '', 'phone': '电话号码', 'phone_code': '区号', 'sms_code': '000000', 'captcha_id': '/',
                 'password': '', 'device_id': '', 'public_key': '', 'pushid': '/'}
 
-        request={'appid':'','sign':b'\xac\xc6\xcb\xf2\xa3@\xc9:\xc7\xf4\x13Rso\xfbE\xdae\x88`\xf4\x03%\xec\xcdm\x05N \xc3J\xa4\x9bD\x89p\xa4\xe8','sign_type':'','retrieve':'','data':body,'seq':''}
+        request={'appid':'BITOLLWALLETDEMO','sign':'','sign_type':'SHA256WithRSAClient','retrieve':'','data':body,'seq':''}
         url='https://vk4uikzpgc.execute-api.ap-east-1.amazonaws.com/dev/retrieve'
         resp=self.session.post(url=url,data=request,verify=False)
         print(resp.text)
 
     def dcboxapi_login(self):
 
-        data = {'phone': 'VVA', 'phone_code': '852', 'sms_code': '00000', 'nonce': '1', 'client_type': 'andriod', 'captcha_id': '',
-                'password': 'Abcd1234', 'device_id': '9c30691f-35a1-48da-8ed3-ae0b03f7b3f5'}
-        request={'appid':'merchanttestvv','sign':'','sign_type':'SHA256WithRSAClient','retrieve':'login','data':data,'seq':'6'}
-        new_prk = handle_private_key(key=prk)
-        sig = sign(new_prk,request)
-        body = {'appid': 'merchanttestvv', 'sign': sig, 'sign_type': 'SHA256WithRSAClient', 'retrieve': 'login','data': data, 'seq': '6'}
+        data = {'phone': '177880', 'phone_code': '63', 'sms_code': '000000', 'nonce': '1', 'client_type': 'andriod', 'captcha_id': '',
+                'password': 'a1111111', 'device_id': '9c30691f-35a1-48da-8ed3-ae0b03f7b3f5'}
+        request={'appid':'BITOLLWALLETDEMO','sign_type':'SHA256WithRSAClient','retrieve':'login','data':data,'seq':'6'}
 
-        re=self.session.post(url=' https://vk4uikzpgc.execute-api.ap-east-1.amazonaws.com/dev/retrieve',data=body,auth=HTTPDigestAuth('VV111111','Abcd1234'),verify=False)
-        print(re.text)
+        sig = signature_body(message=request, rsa_path=r'C:\Users\janti\private.pem')
+        verify_signature(message=request, signature=sig, pub_rsa_path=r'C:\Users\janti\public.pem')
+        body = {'appid': 'merchanttestvv', 'sign': sig, 'sign_type': 'SHA256WithRSAClient', 'retrieve': 'login','data': data, 'seq': '6'}
+        print('请求体数据',type(body),body)
+
+        re=self.session.post(url='https://vk4uikzpgc.execute-api.ap-east-1.amazonaws.com/dev/retrieve',data=body)
+        print('状态码',re.status_code)
+        print('响应头',re.headers)
+        print('响应正文',re.content)
+
 
 
 if __name__ == '__main__':

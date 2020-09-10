@@ -1,7 +1,8 @@
 import json
+import os
 
 from Crypto import Signature
-import uuid
+import uuid,rsa
 import base64
 from Crypto.PublicKey import RSA
 from Crypto.Signature import PKCS1_v1_5
@@ -42,57 +43,77 @@ prk = "MIIEpgIBAAKCAQEAruqz9+kW12YjNdCvwAsfhDhpvp8ylIDXZI8miW3k7U1/EwDT" \
       "Mq087lb8ULck+3EyRRVtyFlnd9fU+lW+BYNF2aDwEOKO41MiYhhMM6ovIwmLBD9X" \
       "CL3tJx7XYdHhCDFy15HFAUZJhj7/CMSlh9ykPn7/NTu2sXO6RGlo5IwB"
 
+pubkey = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAruqz9+kW12YjNdCvwAsf" \
+         "hDhpvp8ylIDXZI8miW3k7U1/EwDTMsDlvn5HiJ8eNOBJ0nj+tHYK1iHmB5reSXQ1" \
+         "hdOwGFc/KHJEIZGabC0+fw1ckQjMgwTbIJUQYxANdb6yGHRXMlJl4BJXPDkEubIU" \
+         "SxztELr6+/q3vb5W4/Hjjx0sdfB7MDcg0m2Fk7JV9NIBWAnwRPJtlTMuc8ASDABY" \
+         "m2oJ30KDE/BvtyMxY35Z2NwDDO23d4P7OReTsuzWJSf8fRgpBw/irnJC6YjPqILJ" \
+         "xHaFkbxlGeSnGKdBkO0F+MRdTHbmb9nq/q4nduq6ADm3l0vRJgGO35gW34OU95f0" \
+         "YwIDAQAB"
 
-#
-# data = {'phone': 'VVA', 'phone_code': '852', 'sms_code': '00000', 'nonce': '1', 'client_type': 'andriod',
+# data = {'phone': '177880', 'phone_code': '63', 'sms_code': '000000', 'nonce': '1', 'client_type': 'andriod',
 #         'captcha_id': '',
-#         'password': 'Abcd1234', 'device_id': '51ceaca1-ba89-4922-ad1e-af18adecd24d'}
-# request = {'appid': 'merchanttestvv', 'sign': '', 'sign_type': 'SHA256WithRSAClient', 'retrieve': 'login','seq': '6'}
-#
+#         'password': 'a1111111', 'device_id': '9c30691f-35a1-48da-8ed3-ae0b03f7b3f5'}
+# request = {'appid': 'BITOLLWALLETDEMO', 'sign': '', 'sign_type': 'SHA256WithRSAClient', 'retrieve': 'login',
+#            'data': data, 'seq': '6'}
+
 
 def datadeal(r):
-    print('原始字典{"":""}为：', r)
-    for i in list(r.keys()):
-        if not r.get(i):
-            del r[i]
+    # 键的列表
     sr = sorted(r)
-    print("去掉值为空的键，并排序", sr)
     pre_d = []
     for j in sr:
-        if r[j]:
-            # pre_d+='%s=%s'%(j,r[j])
+        if type(r[j]) == dict:
+            print('继续追踪', j)
+            c = datatrack(r[j])
+            pre_d.append(j + '=' + c)
+
+        else:
             pre_d.append('%s=%s' % (j, r[j]))
 
     newpred = '&'.join(pre_d)
+    print('数据处理格式',newpred)
     return newpred
     # return bytes(newpred,encoding='utf-8')
 
 
-def hash_handle(d, hashtype):
-    if hashtype == 'MD5':
-        return MD5.new(d.encode('utf-8'))
-    elif hashtype == 'SHA256':
-        digest = SHA256.new()
-        digest.update(d.encode('utf8'))
-        return digest
+def datatrack(r={}):
+    p = []
+    r1 = sorted(r)
+    for i in r1:
+        if type(r[i]) != dict:
+            p.append(i + ':' + r[i])
+        else:
+            c = datatrack(r[i])
+            p.append(i + ":" + c)
+    p1 = ' '.join(p)
+    conrdi = "map[" + p1 + "]"
+    return conrdi
 
-    else:
-        pass
-
-
-def handle_private_key(key):
-    start = '-----BEGIN RSA PRIVATE KEY-----\n'
-    end = '-----END RSA PRIVATE KEY-----'
-    result = ''
-    # 分割key，每64位长度换一行
-    divide = int(len(key) / 64)
-    divide = divide if (divide > 0) else divide + 1
-    line = divide if (len(key) % 64 == 0) else divide + 1
-    for i in range(line):
-        result += key[i * 64:(i + 1) * 64] + '\n'
-    result = start + result + end
-    # print(result)
-    return result
+# def hash_handle(d, hashtype):
+#     if hashtype == 'MD5':
+#         return MD5.new(d.encode('utf-8'))
+#     elif hashtype == 'SHA256':
+#         digest = SHA256.new()
+#         digest.update(d.encode('utf8'))
+#         return digest
+#
+#     else:
+#         pass
+#
+#
+# def handle_private_key(key,s,e):
+#
+#     result = ''
+#     # 分割key，每64位长度换一行
+#     divide = int(len(key) / 64)
+#     divide = divide if (divide > 0) else divide + 1
+#     line = divide if (len(key) % 64 == 0) else divide + 1
+#     for i in range(line):
+#         result += key[i * 64:(i + 1) * 64] + '\n'
+#     result_key = s + result + e
+#     print(result)
+#     return result_key
 
 
 def sign(p, re):
@@ -101,26 +122,73 @@ def sign(p, re):
     signer = Signature.PKCS1_v1_5.new(key)
     # 数据处理
     data = datadeal(r=re)
-    print('格式化处理后的数据体:', data)
     d = SHA256.new()
     d.update(data.encode('utf8'))
     # 加签
     signed = signer.sign(d)
-    print('密钥签名后',signed)
+    print('签名后的数据', signed)
     final_sign = base64.b64decode(signed, '-_')
-
-
-    print(final_sign)
+    print(len(final_sign))
     return final_sign
 
+def verify_sig(sig,pubk,r):
+
+    sig+=b'==='
+    print(len(sig))
+    base64.b64decode(sig,'-_')
+    pk=RSA.import_key(pubk)
+    verifyer=PKCS1_v1_5.new(pk)
+    d=SHA256.new()
+    d.update(r.encode('utf8'))
+    v=verifyer.verify(d,sig)
+    print(v)
 
 
 
-import rsa
-def ras_easy():
-     pub_pri=()
-     pub_pri=rsa.newkeys(2048)
-     print(pub_pri)
+def signature_body(message, rsa_path):
+    '''使用私钥签名'''
+    with open(rsa_path) as f:
+        key = f.read()
+        rsakey = RSA.importKey(key)
+        signer = PKCS1_v1_5.new(rsakey)
+        data = datadeal(message)
+        digest = SHA256.new()
+        digest.update(data.encode())
+        sign = signer.sign(digest)
+        signature = base64.b64encode(sign)
+        print('签名生成',signature)
+        return signature
+
+def verify_signature(message, signature, pub_rsa_path):
+    '''验证签名'''
+    with open(pub_rsa_path) as f:
+        key = f.read()
+
+        rsakey = RSA.importKey(key)
+        verifier = PKCS1_v1_5.new(rsakey)
+        data=datadeal(message)
+        digest = SHA256.new()
+        digest.update(data.encode())
+        is_verify = verifier.verify(digest, base64.b64decode(signature))
+        print('验签是否成功',is_verify)
+        return is_verify
 
 
-ras_easy()
+# datadeal(request)
+# a='good morning'
+# start_i = '-----BEGIN RSA PRIVATE KEY-----\n'
+# end_i = '-----END RSA PRIVATE KEY-----'
+# i_prk = handle_private_key(key=prk,s=start_i,e=end_i)
+# sig = sign(i_prk,a)
+#
+# start_u = '-----BEGIN PUBLIC KEY-----\n'
+# end_u = '-----END PUBLIC KEY-----'
+# u_prk = handle_private_key(key=pubkey, s=start_u, e=end_u)
+# verify_sig(sig,u_prk,a)
+
+
+# sig=signature(message='helloworld',rsa_path=r'C:\Users\janti\private.pem')
+# verify_signature(message='helloworld', signature=sig, pub_rsa_path=r'C:\Users\janti\public.pem')
+
+# sig=signature_body(message=request,rsa_path=r'C:\Users\janti\private.pem')
+# verify_signature(message=request, signature=sig, pub_rsa_path=r'C:\Users\janti\public.pem')
